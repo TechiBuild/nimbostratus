@@ -1,4 +1,4 @@
-Nimbostratus
+Nimbostratus (Dockerized)
 ============
 
 Tools for fingerprinting and exploiting Amazon cloud infrastructures. These tools are a PoC
@@ -10,3 +10,7 @@ For more information visit [the project page](http://andresriancho.github.io/nim
 Feel free to report bugs, fork and send pull-requests. You can also drop me a line at
 [@w3af](https://twitter.com/w3af).
 
+# Docker Setup
+* git clone
+* sudo docker build -t nimbostratus .
+* sudo docker run --rm nimbostratus:latest --access-key <key> ----secret-key <key>
