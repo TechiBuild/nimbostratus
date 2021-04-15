@@ -13,4 +13,4 @@ Feel free to report bugs, fork and send pull-requests. You can also drop me a li
 # Docker Setup
 * git clone
 * sudo docker build -t nimbostratus .
-* sudo docker run --rm nimbostratus:latest --access-key <key> ----secret-key <key>
+* sudo docker run --rm nimbostratus:latest --access-key keyhere ----secret-key keyhere
